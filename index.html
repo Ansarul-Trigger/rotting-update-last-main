@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("a[href^='#']");
+      links.forEach(link => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) target.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Title Page -->
+  <section class="title-page">
+    <video autoplay muted loop class="bg-video" id="bgVideo">
+      <source src="image/Untitled-3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="title-overlay">
+      <div class="ana-brown-section">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+  </div>
+     <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+    </div>
+    </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+      </div>
+    </div>
+  </section>
+
+
+
+ <!-- about section start -->
+  <section class="logo-section" id="about">
+    <div class="logo-container">
+      <img src="image/log-image/292d457e39d78e0fca1373807493fdf4.png" alt="Harvard Logo">
+      <img src="image/log-image/University_of_Montpellier_seal.svg.png" alt="Udemy Logo">
+      <img src="image/log-image/iaea-nea1.jpg" alt="NEA Logo">
+      <img src="image/log-image/Flag-United-Nations-Logo.jpg" alt="United Nations Logo">
+      <img src="image/log-image/Anita-bedzie-a-Ty6.png" alt="INLA Logo">
+      <img src="image/log-image/Verkhovna_Rada_(EN_logo__2022).svg" alt="RADA Logo">
+
+      <!-- Grouped last two logos -->
+      <div class="logo-group">
+        <img src="image/log-image/mcafee-institute-logo.png" alt="Ukrainian Org Logo">
+        <img src="image/log-image/Seal_of_Cybersecurity_and_Infrastructure_Security_Agency.svg" alt="Ukrainian Org Logo">
+      </div>
+    </div>  
+  </section>
+       <!-- logo -->
+
+<div class="ana-brown-section">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+  </div>
+  <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+  </div>
+</div>
+
+<!-- START PERSONAL INTRO SECTION -->
+
+<section class="full-red-section">
+  <div class="about-section">
+    <!-- FULL-WIDTH UNDERLINES FROM LEFT SIDE -->
+    <div class="line top-line"></div>
+    <div class="line bottom-line"></div>
+
+    <!-- LEFT COLUMN -->
+    <div class="about-text">
+      <p class="bold-text">Hello and welcome to my website.</p><br>
+
+      <p class="bold-text">
+        I’m an Eastern Europeanist, nuclear lawyer, and policy analyst, currently completing my ALM in International Relations at Harvard University, and I’m still at the beginning of my career. 
+      </p><br>
+
+      <p class="bold-text">
+       My research centres on defence economics, defence technology, counter-terrorism, and all things nuclear—civilian and military programmes.Strategic studies are at the core of my research, and I use wargaming to test different theories. I speak three Slavic languages and have lived for extended periods across several CIS states, and it’s fair to say I know the region intimately.
+      </p><br>
+
+      <p class="bold-text">
+        I’ve worked on some remarkable projects and with outstanding organisations, where I’ve met some of the most brilliant people. Here, however, I showcase solely my personal work.
+      </p>
+    </div>
+
+    <!-- RIGHT COLUMN (IMAGE WITH LINES UNDERLAYED) -->
+    <div class="about-image">
+      <img src="image/profile-image.png" alt="Profile Image">
+    </div>
+  </div>
+
+<div class="contacttbc-section">
+  <a href="#" class="contacttbc-link">Contact TBC</a>
+</div>
+
+<!-- color-bar -->
+
+<div class="color-bar"></div>
+
+
+</section>
+
+   <!-- about section end-->
+
+
+ <!-- Work Section -->
+<section id="work" class="work-section">
+  <h2>Work</h2>
+
+  <!-- Dropdown Menu for Articles -->
+  <nav class="work-dropdown">
+    <button class="dropdown-btn" id="dropdownBtn">Browse Articles ▼</button>
+    <div class="dropdown-list" id="dropdownList">
+      <a href="#essay1">Vulnerabilities in Russian Weapons Systems from Chinese Microelectronics</a>
+      <a href="#essay2"> Responsibilities of nuclear weapons and non-nuclear weapons states under the Treaty...</a>
+      <a href="#essay3">Defence Economics Dilemma:Risk vs. Innovation</a>
+       <a href="#essay4">Iran’s Nuclear Program and Strategic Intentions</a>
+       <a href="#essay5">Deterrence and Compellence: Schelling’s Concepts and the Dynamics of Bargaining Power</a>
+       <a href="#essay6">A literature review on modern Sino-Russian relations analysis</a>
+       <a href="#essay7">MC48, Gaither, and Killian: Shaping U.S. Concepts of Deterrence During the Cold War</a>
+       <a href="#essay8">The book review of "The Rise and Fall of the Great Powers: economic change and military conflict from 1500-2000" by Paul Kennedy, 1987</a>
+       <a href="#essay9">Massive Retaliation vs Flexible Response</a>
+    </div>
+  </nav>
+</section>
+
+<!-- page-1 -->
+<section class="research-section" id="essay1">
+<div class="ana-brown-section margin-off">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+  </div>
+  <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+  </div>
+</div>
+
+  <h2 class="title">Vulnerabilities in Russian Weapons Systems</br> from Chinese Microelectronics</h2>
+
+  <div class="grid-container">
+    <!-- Left Column: Dolls (Two columns) -->
+<div class="image-column">
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+     <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+  </div>
+ 
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+     <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+  </div>
+
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+     <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+  </div>
+
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+    <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+     <img class="grid-item" src="image/Asset 1.png" alt="Doll">
+  </div>
+</div>
+
+<!-- Middle Text -->
+<div class="text-column">
+This is my latest paper, which addresses exactly what its title suggests. It examines China’s production of military-grade and off-the-shelf microchips, their supply to Russia, and the hypothetical possibility that these chips could be used for intelligence gathering targeting Russia. It’s a technical analysis of weapons systems that aims to determine whether the existing technical capabilities allow for such surveillance activities to occur. 
+<br><br>
+This is the full research, a shorter version of which is published on Riddle.
+ 
+
+
+ <div>
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+
+</div>
+
+<!-- Right Column: Cats (Two columns) -->
+<div class="image-column">
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+  </div>
+
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+  </div>
+
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+  </div>
+
+  <div class="sub-column">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+    <img class="grid-item" src="image/Asset 4.png" alt="Cat">
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<!-- nuclear-section -->
+<section class="nuclear-section" id="essay2">
+  <div class="ana-brown-section margin-off">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+  </div>
+  <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+  </div>
+</div>
+
+  <div class="banner">
+    Responsibilities of nuclear weapons and non-nuclear weapons states under the Treaty<br>
+    on the Non-Proliferation of Nuclear Weapons and contribution to the nuclear disarmament<br>
+    and non-proliferation regime of the Comprehensive Nuclear-Test-Ban Treaty
+  </div>
+
+  <div class="nu-content">
+  <div class="video-wrapper">
+    <video autoplay loop muted playsinline class="atomic-video">
+      <source src="image/Atomic Bomb Test Video-main.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="text-center">
+    A very lengthy and official title for my dissertation in Nuclear Law. What I’m really looking into is the violation of the NPT, the concept of the nuclear taboo, and the tension between international law and national security interests. It’s a hard-core analysis of how states justify actions that push legal boundaries and a critical examination of the practical limits of legal frameworks when confronted with security imperatives.
+    <br><br>
+    <div class="nu-pdf">
+      <p class="pdf-link">
+        PDF<br>
+        <button onclick="verifyPassword()">Access PDF</button>
+      </p>
+      <div id="pdf-link" style="display:none; margin-top:10px;">
+        <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-wrapper">
+    <video autoplay loop muted playsinline class="atomic-video">
+      <source src="image/Atomic Bomb Test Video-main.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+</section>
+
+
+<!-- Defence section -->
+ <section class="def-section" id="essay3">
+ <div class="container-def">
+   <div class="ana-brown-section margin-off">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+   </div>
+   <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+   </div>
+   </div>
+    
+     <div class="container">
+    <!-- Red lines -->
+    <div class="line-d top"></div>
+    <div class="line-d bottom"></div>
+
+    <div class="content">
+      <div class="left">
+        <div>
+          <h1>Defence Economics Dilemma:<br>Risk vs. Innovation</h1>
+          <p>
+          It’s a wargaming scenario and thought experiment that is rootedin a defence economics dilemma: whether to keep investing in advanced technology that may have been compromisedand nearing obsolescence, or to shift to new technology lacking sufficient empirical data to prove its effectiveness. Budget constraints always complicate the decision-making process.
+          </p>
+        </div>
+        
+       <div class="nu-pdf">
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+
+
+      </div>
+      <div class="right">
+        <img src="image/1_bofg0Sx6B9ph4IKVzF9b4w.webp" alt="Chessboard">
+      </div>
+    </div>
+  </div>
+<div class="soft-banner"></div>
+
+  </div>
+ </section>
+
+<!-- iran nuclear section -->
+<section class="iran-section-full" id="essay4">
+   <div class="ana-brown-section margin-off">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+   </div>
+   <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+   </div>
+   </div>
+  <div class="iran-flex-row">
+    <div class="iran-text-block">
+      <h2>Iran’s Nuclear Program and Strategic Intentions</h2>
+      <p>
+        <strong>
+          Iran is moving steadily toward nuclear capability, accumulating enriched uranium and developing missile technologies that could significantly alter the balance of power in the Middle East. Although President Pezeshkian has expressed willingness to re-engage in diplomatic efforts, ultimate authority remains with Supreme Leader Khamenei. With Israel weighing possible military strikes, how long will it take Iran to build and integrate nuclear warheads onto missiles? The framework and timeline have been assessed and calculated.
+        </strong>
+      </p>
+        <div class="nu-pdf">
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+    </div>
+   
+ <div class="iran-video-scroll">
+  <div class="iran-video-box wide">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+  </div>
+  <div class="iran-video-box wide">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+
+  </div>
+  <div class="iran-video-box medium">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+   
+  </div>
+  <div class="iran-video-box medium">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+    
+  </div>
+   <div class="iran-video-box small">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+    
+  </div>
+  <div class="iran-video-box small">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+   
+  </div>
+  <div class="iran-video-box small">
+    <video src="image/Nuclear Explosion _ atomic bomb mushroom cloud.mp4" autoplay muted loop playsinline></video>
+
+  </div>
+</div>
+
+
+
+  </div>
+</section>
+
+<!-- deterrence-section -->
+ <section class="deterrence-section" id="essay5">
+   <div class="ana-brown-section margin-off">
+  <div class="ana-brown-name">
+    <div class="first">ANA</div>
+    <div class="underline"></div>
+    <div class="last">BROWN</div>
+   </div>
+   <div class="ana-brown-bottom">
+    <img src="image/doll-routting.gif" alt="Russian Doll">
+   </div>
+   </div>
+  <div class="det-container">
+    <!-- Red lines -->
+    <div class="det-line top"></div>
+    <div class="det-line bottom"></div>
+
+    <div class="det-content">
+      <div class="det-left">
+        <div>
+          <h1>Deterrence and Compellence: Schelling’s Concepts and the Dynamics of Bargaining Power</h1>
+          <p>
+            Thomas Schelling introduced the term “compellence” to complement the concept of “deterrence.” A discussion of the distinctions between these two concepts can shed light on how the capacity to inflict pain or punishment contributes to bargaining power within strategic interactions. This topic relates closely to debates surrounding counter-value versus counter-force strategies, as well as the concept of tolerable loss
+          </p>
+        </div>
+
+           <div class="nu-pdf">
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+      </div>
+
+      <div class="det-right">
+        <img src="image/6.jpeg" alt="Deterrence Concept">
+      </div>
+    </div>
+  </div>
+  <div class="dett-banner"></div>
+</section>
+
+<!-- literature-section -->
+<section class="literature-section" id="essay6">
+  <div class="ana-brown-section margin-off">
+    <div class="ana-brown-name">
+      <div class="first">ANA</div>
+      <div class="underline"></div>
+      <div class="last">BROWN</div>
+    </div>
+    <div class="ana-brown-bottom">
+      <img src="image/doll-routting.gif" alt="Russian Doll">
+    </div>
+  </div>
+
+  <div class="lit-container">
+    <!-- Yellow lines -->
+    <div class="lit-line top"></div>
+    <div class="lit-line bottom"></div>
+
+    <div class="lit-content">
+      <div class="lit-left">
+        <div>
+          <h1>A literature review on modern Sino-Russian relations analysis</h1>
+          <p>
+           This literature review on modern Sino-Russian relations is intended for scholars, policymakers, and analysts seeking to understand the evolving strategic, economic, and political dynamics between China and Russia in the contemporary international system
+          </p>
+        </div>
+
+         <div class="nu-pdf">
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+      </div>
+
+      <div class="lit-right">
+        <img src="image/sovietbusstops (1).jpg" alt="Literature Concept">
+      </div>
+    </div>
+  </div>
+  <div class="lit-banner"></div>
+  <!-- color-bar -->
+
+<div class="color-barlit"></div>
+</section>
+
+
+<!-- MC48-section -->
+
+<section class="MC48-section" id="essay7">
+  <div class="mc-back">
+  <div class="MC48left-line"></div>
+  </div>
+  <div class="ana-brown-section">
+    <div class="ana-brown-name">
+      <div class="first MC48-m">ANA</div>
+      <div class="underline"></div>
+      <div class="last">BROWN</div>
+    </div>
+    <div class="ana-brown-bottom">
+      <img src="image/doll-routting.gif" alt="Russian Doll">
+    </div>
+  </div>
+
+<div class="MC48-container">
+    <div class="left-column">
+      <div class="left-box">
+        <h2>MC48, Gaither, and Killian: Shaping U.S. Concepts of Deterrence During the Cold War</h2>
+        <p>
+          Three significant reports were prepared for U.S. policymakers during the Cold War: the NATO Military Committee Report MC48, the Gaither Report, and the Killian Report. Each offered distinct analyses of the strategic landscape and proposed different approaches for ensuring national and allied security. An assessment of the underlying assumptions in these reports reveals differing views on what constitutes credible deterrence, ranging from force posture and civil defence measures to technological advancements and the balance between offensive and defensive capabilities.
+        </p>
+      </div>
+             <div class="nu-pdf">
+             <p class="pdf-link">
+                PDF<br>
+                <button onclick="verifyPassword()">Access PDF</button>
+                </p>
+
+                <!-- Hidden link that shows after correct password -->
+                <div id="pdf-link" style="display:none; margin-top:10px;">
+                <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+                </div>
+
+      </div>
+    </div>
+    <div class="right-image">
+      <img src="image/sicence and technology.png" alt="Cold War Reports Highlighted Document" />
+    </div>
+  </div>
+  <div class="right-bottom" >
+<div class="right-line"></div>
+  </div>
+  
+</section>
+
+
+<!-- book review -->
+ <section class="book-section" id="essay8">
+  <div class="ana-brown-section MC48-off">
+    <div class="ana-brown-name">
+      <div class="first">ANA</div>
+      <div class="underline"></div>
+      <div class="last">BROWN</div>
+    </div>
+    <div class="ana-brown-bottom">
+      <img src="image/doll-routting.gif" alt="Russian Doll">
+    </div>
+  </div>
+
+  <!-- main-body -->
+  <div class="book-review">
+    <div class="book-container">
+      <div class="text-section">
+        <h1>
+          The book review of "The Rise and Fall of the Great Powers: economic change and military conflict from 1500-2000" by Paul Kennedy, 1987
+        </h1>
+        <p>
+          This book review examines The Rise and Fall of the Great Powers: Economic Change and Military Conflict from 1500-2000, written by Paul Kennedy and published in 1987. Kennedy explores how shifts in economic strength and military capability have shaped the fortunes of major powers over five centuries, arguing that economic resources ultimately underpin military dotminance. The review evaluates Kennedy’s thesis, his use of historical evidence, and the relevance of his insights for understanding contemporary global power dynamics.
+        </p>
+        <div class="nu-pdf">
+          <p class="pdf-link">
+            PDF<br>
+            <button onclick="verifyPassword()">Access PDF</button>
+          </p>
+          <!-- Hidden link -->
+          <div id="pdf-link" style="display:none; margin-top:10px;">
+            <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-section">
+        <img src="image/7.jpeg" alt="Book Kiosk">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- retaliation-section -->
+
+ <section class="retaliation-section" id="essay9">
+  <div class="ana-brown-section ">
+    <div class="ana-brown-name">
+      <div class="first">ANA</div>
+      <div class="underline"></div>
+      <div class="last">BROWN</div>
+    </div>
+    <div class="ana-brown-bottom">
+      <img src="image/doll-routting.gif" alt="Russian Doll">
+    </div>
+  </div>
+    <div class="responsive-container">
+      <div class="left-content">
+        <h2>Massive Retaliation vs Flexible Response</h2>
+        <p>
+          Either “massive retaliation” or “flexible response” may be briefly analysed through Schelling’s capability-communication-commitment paradigm. The strengths and weaknesses of each strategy should be identified, and particular attention should be given to the requirements necessary for successful deterrence under either approach.
+        </p>
+        <div class="relations-pdf">
+           <div class="nu-pdf">
+          <p class="pdf-link">
+            PDF<br>
+            <button onclick="verifyPassword()">Access PDF</button>
+          </p>
+          <!-- Hidden link -->
+          <div id="pdf-link" style="display:none; margin-top:10px;">
+            <a href="files/research.pdf" target="_blank">Download Full PDF</a>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    <div class="right-box">
+  <video autoplay muted loop playsinline>
+    <source src="image/Massive retaliation_ flexible response.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+    </div>
+  </section>
+
+ 
+
+<script>
+  const dropdownBtn = document.getElementById('dropdownBtn');
+  const dropdownList = document.getElementById('dropdownList');
+
+  // Toggle dropdown
+  dropdownBtn.addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevent window click from immediately closing it
+    dropdownList.classList.toggle('show');
+  });
+
+  // Close dropdown when clicking outside
+  window.addEventListener('click', function() {
+    if (dropdownList.classList.contains('show')) {
+      dropdownList.classList.remove('show');
+    }
+  });
+</script>
+
+
+
+
+<script>
+  const gridItems = document.querySelectorAll('.grid-item');
+
+  document.addEventListener('mousemove', (e) => {
+    const { clientX, clientY } = e;
+
+    gridItems.forEach(item => {
+      const rect = item.getBoundingClientRect();
+      const itemX = rect.left + rect.width / 2;
+      const itemY = rect.top + rect.height / 2;
+
+      const angle = Math.atan2(clientY - itemY, clientX - itemX);
+      const degrees = angle * (180 / Math.PI);
+
+      item.style.transform = `rotate(${degrees}deg)`;
+    });
+  });
+</script>
+
+
+
+<script>
+  function verifyPassword() {
+    const password = prompt("Please enter the password to access the PDF:");
+    const correctPassword = "YourPasswordHer"; // Change this to your password
+
+    if (password === correctPassword) {
+      document.getElementById('pdf-link').style.display = 'block';
+    } else {
+      alert("Incorrect password. Please try again.");
+    }
+  }
+</script>
+</body>
+</html>
